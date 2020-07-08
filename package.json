@@ -31,18 +31,23 @@
   "author": "650 Industries, Inc.",
   "license": "MIT",
   "homepage": "https://docs.expo.io/versions/latest/sdk/av/",
-  "peerDependencies": {
+  "unimodulePeerDependencies": {
     "@unimodules/core": "*",
     "expo-asset": "*",
-    "react": "*",
-    "react-native": "*",
     "unimodules-permissions-interface": "*"
   },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
   "devDependencies": {
+    "babel-preset-expo": "~8.2.3",
     "expo-module-scripts": "~1.2.0"
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "nullthrows": "^1.1.0"
-  }
+    "nullthrows": "^1.1.0",
+    "prop-types": "15.7.2"
+  },
+  "gitHead": "1bc594b4a2f5154c335bdb35f984710a766d9199"
 }

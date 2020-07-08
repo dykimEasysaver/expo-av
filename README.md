@@ -43,4 +43,3 @@ Add `android.permission.RECORD_AUDIO` permission to your manifest (`android/app/
 # Contributing
 
 Contributions are very welcome! Please refer to guidelines described in the [contributing guide](https://github.com/expo/expo#contributing).
-# expo-av
